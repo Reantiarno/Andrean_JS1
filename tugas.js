@@ -14,7 +14,7 @@
  else if (barang == 'dompet') {
     alert('anda telah menginput dompet');
  } else{
-    alert('input yang masukkan anda salah !');
+    alert('input yang anda masukkan salah !');
  }
 
 //nested if
