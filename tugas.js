@@ -37,18 +37,23 @@ if (nilai >= 90) {
 //contoh nested ke 2
 
 var makanan = prompt('Masukkan jenis makanan atau minuman: (makanan, minuman)');
-var protein = prompt('Masukkan makanan/minuman:\n minuman = susu\n makanan = daging, telur, bayam');
+var protein = prompt('Masukkan makanan/minuman:\n minuman = susu, fanta\n makanan = daging, telur, bayam');
 
 if (makanan === 'makanan') {
   if (protein === 'daging' || protein === 'telur') {
     alert('Makanan sehat dan berprotein tinggi');
+  } else if (protein === 'bayam') {
+    alert('Makanan sehat namun rendah protein');
   } else {
-    alert('Makanan sehat');
+    alert('Anda memasukkan pilihan protein yang tidak valid');
   }
 } else if (makanan === 'minuman') {
-  alert('Minuman sehat');
-} 
- else {
+  if (protein === 'susu') {
+    alert('Minuman sehat');
+  } else{
+    alert('Minuman tidak sehat');
+  }
+} else {
   alert('Anda memasukkan pilihan yang tidak valid');
 }
 
