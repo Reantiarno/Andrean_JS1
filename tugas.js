@@ -28,7 +28,7 @@ if (makanan === 'makanan') {
   } else if (protein === 'bayam') {
     alert('Makanan sehat namun rendah protein');
   } else {
-    alert('Anda memasukkan pilihan protein yang tidak valid');
+    alert('Anda memasukkan pilihan makanan yang tidak valid');
   }
 } else if (makanan === 'minuman') {
   if (protein === 'susu') {
