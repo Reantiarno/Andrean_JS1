@@ -50,17 +50,12 @@ switch(jenis) {
 case 'telur' :
 case 'nasi':
 case 'hamburger' :
-
 alert('Input yang anda masukkan termasuk jenis makanan!');
-
 break;
 
 case 'susu' :
-
 case 'teh' :
-
 alert('Input yang anda masukkan termasuk jenis minuman!');
-
 break;
 
 default:
@@ -75,7 +70,6 @@ for(var u = 1; u <=10; u++) {
     console.log('data u ke-, u)
 }
 
-//while, do while
 //while
 
 var p = 1
@@ -84,7 +78,8 @@ while (p <= 10) {
     p++
 }
 
-// //do while
+//do while
+
 var t = 1
 do {
     console.log('data t ke-', t)  
