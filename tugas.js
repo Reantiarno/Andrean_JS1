@@ -19,23 +19,6 @@
 
 //nested if
 
-var nilai = prompt('masukkan nilai anda (1-100)');
-if (nilai >= 90) {
-    alert("Nilai Anda A");
-} else { 
-    if (nilai >= 80) {
-      alert("Nilai Anda B");
-    } else {
-        if (nilai >= 70) {
-            alert("Nilai Anda C");
-        } else {
-           alert("Nilai Anda D");
-        }
-    }
-}
-
-//contoh nested ke 2
-
 var makanan = prompt('Masukkan jenis makanan atau minuman: (makanan, minuman)');
 var protein = prompt('Masukkan makanan/minuman:\n minuman = susu, fanta\n makanan = daging, telur, bayam');
 
