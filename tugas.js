@@ -50,13 +50,14 @@ if (makanan === 'makanan') {
 } else if (makanan === 'minuman') {
   if (protein === 'susu') {
     alert('Minuman sehat');
-  } else{
+  } else if (protein === 'fanta'){
     alert('Minuman tidak sehat');
+  } else {
+    alert('Anda memasukkan pilihan minuman yang tidak valid');
   }
 } else {
   alert('Anda memasukkan pilihan yang tidak valid');
 }
-
 //Switch case
 
 var jenis = prompt('masukkan jenis makanan/minuman : \n (cth: telur, nasi, hamburger, susu, teh)');
